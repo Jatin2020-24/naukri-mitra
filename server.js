@@ -66,7 +66,7 @@ app.get('/profile', connectEnsureLogin.ensureLoggedIn() ,(req, res)=>{
   res.sendFile(__dirname + '/static/profile.html');
 })
 
-app.get('/jobs', connectEnsureLogin.ensureLoggedIn() ,(req, res)=>{
+app.get('/jobs' ,(req, res)=>{
   res.sendFile(__dirname + '/static/jobs.html');
 })
 
