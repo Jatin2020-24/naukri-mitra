@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const passportLocalMongoose = require('passport-local-mongoose');
 const dotenv = require('dotenv').config();
 // connect to database
-mongoose.connect("ENTER_YOUR_MONGODB_URI", {
+mongoose.connect("mongodb+srv://jatin:<jatin>@cluster0.irshu.mongodb.net/?retryWrites=true&w=majority", {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
